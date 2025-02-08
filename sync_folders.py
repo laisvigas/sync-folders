@@ -54,6 +54,31 @@ def copy_new_files(source_path, replica_path):
             if replica_md5 is None or source_md5 != replica_md5:
                 shutil.copy2(source_file, replica_file)
                 print(f"Copied: {source_file} -> {replica_file}")
+                
+
+def remove_deleted_files(source_path, replica_path):
+    # Remove files and directories in replica that don't exist in source
+    for root, dirs, files in os.walk(replica_path, topdown=False):
+        relative_path = os.path.relpath(root, replica_path)
+        source_folder = os.path.join(source_path, relative_path)
+
+        # Remove files not in the source
+        for file in files:
+            replica_file = os.path.join(root, file)
+            source_file = os.path.join(source_folder, file)
+
+            if not os.path.exists(source_file):
+                os.remove(replica_file)
+                print(f"Deleted file: {replica_file}")
+
+        # Remove empty directories not in the source
+        for dir_name in dirs:
+            replica_dir = os.path.join(root, dir_name)
+            source_dir = os.path.join(source_folder, dir_name)
+
+            if not os.path.exists(source_dir):
+                shutil.rmtree(replica_dir)
+                print(f"Deleted directory: {replica_dir}")
 
 
 if __name__ == "__main__":
@@ -65,3 +90,4 @@ if __name__ == "__main__":
 
     ensure_replica_exists(args.replica)
     copy_new_files(args.source, args.replica)
+    remove_deleted_files(args.source, args.replica)
