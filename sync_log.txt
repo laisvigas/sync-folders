@@ -1,0 +1,18 @@
+[2025-02-09 20:15:54] Starting synchronization process
+[2025-02-09 20:15:54] Created missing replica folder: r_folder
+[2025-02-09 20:15:54] Copied: s_folder/file1.txt -> r_folder/./file1.txt
+[2025-02-09 20:15:54] Created missing folder: r_folder/s_subfolder
+[2025-02-09 20:15:54] Copied: s_folder/s_subfolder/sf_file1.txt -> r_folder/s_subfolder/sf_file1.txt
+[2025-02-09 20:15:54] Synchronization completed
+[2025-02-09 20:16:49] Starting synchronization process
+[2025-02-09 20:16:49] Replica folder already exists.
+[2025-02-09 20:16:49] Deleted: r_folder/file2.txt
+[2025-02-09 20:16:49] Synchronization completed
+[2025-02-09 20:17:26] Starting synchronization process
+[2025-02-09 20:17:26] Replica folder already exists.
+[2025-02-09 20:17:26] Copied: s_folder/file2.txt -> r_folder/./file2.txt
+[2025-02-09 20:17:26] Synchronization completed
+[2025-02-09 20:18:42] Starting synchronization process
+[2025-02-09 20:18:42] Replica folder already exists.
+[2025-02-09 20:18:42] Copied: s_folder/s_subfolder/sf_file2.txt -> r_folder/s_subfolder/sf_file2.txt
+[2025-02-09 20:18:42] Synchronization completed
