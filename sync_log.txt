@@ -16,3 +16,61 @@
 [2025-02-09 20:18:42] Replica folder already exists.
 [2025-02-09 20:18:42] Copied: s_folder/s_subfolder/sf_file2.txt -> r_folder/s_subfolder/sf_file2.txt
 [2025-02-09 20:18:42] Synchronization completed
+[2025-02-11 12:27:35] Starting synchronization process
+[2025-02-11 12:27:35] Replica folder already exists.
+[2025-02-11 12:27:35] Synchronization completed
+[2025-02-11 12:27:40] Replica folder already exists.
+[2025-02-11 12:27:40] Synchronization completed
+[2025-02-11 12:27:45] Replica folder already exists.
+[2025-02-11 12:27:45] Synchronization completed
+[2025-02-11 12:27:50] Replica folder already exists.
+[2025-02-11 12:27:50] Synchronization completed
+[2025-02-11 12:27:55] Replica folder already exists.
+[2025-02-11 12:27:55] Copied: s_folder/file3.txt -> r_folder/./file3.txt
+[2025-02-11 12:27:55] Synchronization completed
+[2025-02-11 12:28:00] Replica folder already exists.
+[2025-02-11 12:28:00] Synchronization completed
+[2025-02-11 12:28:05] Replica folder already exists.
+[2025-02-11 12:28:05] Synchronization completed
+[2025-02-11 12:28:10] Replica folder already exists.
+[2025-02-11 12:28:10] Copied: s_folder/file3.txt -> r_folder/./file3.txt
+[2025-02-11 12:28:10] Synchronization completed
+[2025-02-11 12:28:15] Replica folder already exists.
+[2025-02-11 12:28:15] Synchronization completed
+[2025-02-11 12:28:20] Replica folder already exists.
+[2025-02-11 12:28:20] Copied: s_folder/file3.txt -> r_folder/./file3.txt
+[2025-02-11 12:28:20] Synchronization completed
+[2025-02-11 12:28:25] Replica folder already exists.
+[2025-02-11 12:28:25] Synchronization completed
+[2025-02-11 12:28:30] Replica folder already exists.
+[2025-02-11 12:28:30] Synchronization completed
+[2025-02-11 12:28:35] Replica folder already exists.
+[2025-02-11 12:28:35] Synchronization completed
+[2025-02-11 12:28:40] Replica folder already exists.
+[2025-02-11 12:28:40] Synchronization completed
+[2025-02-11 12:28:45] Replica folder already exists.
+[2025-02-11 12:28:45] Synchronization completed
+[2025-02-11 12:28:50] Replica folder already exists.
+[2025-02-11 12:28:50] Deleted: r_folder/file4.txt
+[2025-02-11 12:28:50] Synchronization completed
+[2025-02-11 12:28:55] Replica folder already exists.
+[2025-02-11 12:28:55] Synchronization completed
+[2025-02-11 12:29:00] Replica folder already exists.
+[2025-02-11 12:29:00] Synchronization completed
+[2025-02-11 12:29:05] Replica folder already exists.
+[2025-02-11 12:29:05] Synchronization completed
+[2025-02-11 12:29:10] Replica folder already exists.
+[2025-02-11 12:29:10] Synchronization completed
+[2025-02-11 12:29:15] Replica folder already exists.
+[2025-02-11 12:29:15] Copied: s_folder/s_subfolder/sf_file3.txt -> r_folder/s_subfolder/sf_file3.txt
+[2025-02-11 12:29:15] Synchronization completed
+[2025-02-11 12:29:20] Replica folder already exists.
+[2025-02-11 12:29:20] Synchronization completed
+[2025-02-11 12:29:25] Replica folder already exists.
+[2025-02-11 12:29:25] Copied: s_folder/s_subfolder/sf_file3.txt -> r_folder/s_subfolder/sf_file3.txt
+[2025-02-11 12:29:25] Synchronization completed
+[2025-02-11 12:29:30] Replica folder already exists.
+[2025-02-11 12:29:30] Synchronization completed
+[2025-02-11 12:29:35] Replica folder already exists.
+[2025-02-11 12:29:35] Synchronization completed
+[2025-02-11 12:29:37] Synchronization process stopped by user.

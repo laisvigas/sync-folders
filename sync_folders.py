@@ -95,7 +95,13 @@ def remove_deleted_files(source_path, replica_path, log_file):
 if __name__ == "__main__":
     args = get_arguments()
     log_action(args.log_file, "Starting synchronization process")
-    ensure_replica_exists(args.replica, args.log_file)
-    copy_new_files(args.source, args.replica, args.log_file)
-    remove_deleted_files(args.source, args.replica, args.log_file)
-    log_action(args.log_file, "Synchronization completed")
+    
+    try:
+        while True:
+            ensure_replica_exists(args.replica, args.log_file)
+            copy_new_files(args.source, args.replica, args.log_file)
+            remove_deleted_files(args.source, args.replica, args.log_file)
+            log_action(args.log_file, "Synchronization completed")
+            time.sleep(args.interval)
+    except KeyboardInterrupt:
+        log_action(args.log_file, "Synchronization process stopped by user.")
